@@ -1,0 +1,14 @@
+# Ignore Python virtual environments
+venv/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore logs
+*.log
