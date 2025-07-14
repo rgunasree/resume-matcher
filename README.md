@@ -56,10 +56,13 @@ resume-matcher/
 - All screenshots are stored in the `/screenshot` directory
 - Sample Excel output included for reference
 - Replace placeholder GitHub URL with your actual repository
+<<<<<<< HEAD
 
 ## 📚 Documentation
 - [System Architecture](docs/ARCHITECTURE.md)
 
+=======
+>>>>>>> 0bdecdf0c6315210c527ef88880915bca8ffcba1
 
 [![GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername/resume-matcher)
 ```
