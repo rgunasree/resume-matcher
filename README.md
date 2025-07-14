@@ -1,7 +1,5 @@
 # 📄 AI-Powered Resume Matcher
 
-![App Banner](https://via.placeholder.com/1200x400?text=Resume+Matcher+Screenshot)
-
 A Streamlit application that automatically ranks resumes against job descriptions using hybrid BM25 + semantic similarity matching.
 
 ## ✨ Features
@@ -41,11 +39,31 @@ streamlit run app.py
 
 ## 🖥️ UI Screenshots
 
- ![Upload](![Uploading Screenshot_15-7-2025_14417_localhost.jpeg…]()
-) 
- ![Results](https://via.placeholder.com/600x400?text=Results+View) 
- ![Analysis](https://via.placeholder.com/600x400?text=Score+Breakdown) 
- ![Export](https://via.placeholder.com/600x400?text=Excel+Export) 
+### 🏠 Home
+![Home](screenshots/home.jpg)
+
+### 📂 Upload JD & Resume
+![Upload](screenshots/upload_jd_and_resume.jpg)
+
+### 🔍 Matching Process
+![Matching](screenshots/matching.jpg)
+
+### ✅ Match Score
+![Match Score](screenshots/match_score.jpg)
+
+### 📊 Visual Analytics
+![Visual Analytics](screenshots/visual_analytics.jpg)
+
+### 📈 Excel Download & Summary
+![Excel & Summary](screenshots/excel_and_summary.jpg)
+
+---
+## 📥 Sample Analysis File
+
+✅ You can download an example Excel output:
+
+**[resume_analysis_results.xlsx](resume_analysis_results.xlsx)**
+
 
 ## 🛠️ Tech Stack
 - **Frontend**: Streamlit
