@@ -13,16 +13,16 @@ An intelligent Streamlit application that ranks resumes against job descriptions
 ![Home Interface](screenshot/HOME.jpeg)
 
 ### 2. Upload Job Description & Resumes
-![Upload Interface](screenshot/UPLOAD-JD-AND-RESUME.jpeg)
+![Upload Interface](screenshot/UPLOAD_JD_AND_RESUME.jpeg)
 
 ### 3. Matching the JD and Resumes 
 ![Loading](screenshot/MATCHING.jpeg)
 
 ### 4. Visual Analytics Dashboard
-![Analytics View](screenshot/VISUAL-ANALYTICS.jpeg)
+![Analytics View](screenshot/VISUAL_ANALYTICS.jpeg)
 
 ### 5. Excel Export & Summary
-![Export Options](screenshot/EXCEL-AND-SUMMARY.jpeg)
+![Export Options](screenshot/EXCEL_AND_SUMMARY.jpeg)
 
 ## 🚀 Quick Start
 
@@ -37,7 +37,8 @@ python -m spacy download en_core_web_sm
 
 # Run application
 streamlit run app.py
- ``
+```
+
 ## 📁 Project Structure
 ```
 resume-matcher/
