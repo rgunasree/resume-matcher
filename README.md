@@ -1,94 +1,60 @@
 # 📄 AI-Powered Resume Matcher
-
-A Streamlit application that automatically ranks resumes against job descriptions using hybrid BM25 + semantic similarity matching.
+An intelligent Streamlit application that ranks resumes against job descriptions using hybrid BM25 + semantic similarity matching.
 
 ## ✨ Features
-- **Hybrid Scoring** - Combines BM25 (keyword) and FAISS (semantic) matching
-- **Multi-Format Support** - Works with PDF and DOCX resumes
-- **Visual Analytics** - Interactive charts and score breakdowns
-- **Excel Export** - Download full results for reporting
-- **Fast Processing** - Optimized pipeline for quick analysis
+- **Hybrid Matching** - Combines keyword and semantic analysis
+- **Multi-Format Support** - Processes PDF/DOCX resumes
+- **Visual Analytics** - Interactive charts and comparisons
+- **Excel Export** - Download full analysis reports
+
+## 🖼️ Application Screenshots
+
+### 1. Home Screen
+![Home Interface](screenshot/HOME.jpeg)
+
+### 2. Upload Job Description & Resumes
+![Upload Interface](screenshot/UPLOAD-JD-AND-RESUME.jpeg)
+
+### 3. Matching the JD and Resumes 
+![Loading](screenshot/MATCHING.jpeg)
+
+### 4. Visual Analytics Dashboard
+![Analytics View](screenshot/VISUAL-ANALYTICS.jpeg)
+
+### 5. Excel Export & Summary
+![Export Options](screenshot/EXCEL-AND-SUMMARY.jpeg)
 
 ## 🚀 Quick Start
 
-1. Clone the repo:
 ```bash
-git clone https://github.com/rgunasree/resume-matcher.git
+# Clone repository
+git clone https://github.com/yourusername/resume-matcher.git 
 cd resume-matcher
-```
 
-2. Set up environment:
-```bash
-python -m venv venv
-# Windows:
-venv\Scripts\activate
-# Mac/Linux:
-source venv/bin/activate
-```
-
-3. Install dependencies:
-```bash
+# Install dependencies
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
-```
 
-4. Run the app:
-```bash
+# Run application
 streamlit run app.py
+ ``
+## 📁 Project Structure
 ```
-
-## 🖥️ UI Screenshots
-
-### 🏠 Home
-![Home](screenshots/home.jpg)
-
-### 📂 Upload JD & Resume
-![Upload](screenshots/upload_jd_and_resume.jpg)
-
-### 🔍 Matching Process
-![Matching](screenshots/matching.jpg)
-
-### ✅ Match Score
-![Match Score](screenshots/match_score.jpg)
-
-### 📊 Visual Analytics
-![Visual Analytics](screenshots/visual_analytics.jpg)
-
-### 📈 Excel Download & Summary
-![Excel & Summary](screenshots/excel_and_summary.jpg)
-
----
-## 📥 Sample Analysis File
-
-✅ You can download an example Excel output:
-
-**[resume_analysis_results.xlsx](resume_analysis_results.xlsx)**
-
-
-## 🛠️ Tech Stack
-- **Frontend**: Streamlit
-- **NLP**: spaCy, NLTK
-- **Matching**: BM25 + FAISS
-- **Embeddings**: Sentence Transformers
-- **Parsing**: PyPDF2, python-docx
-- **Analysis**: Pandas, Matplotlib
-
-## 📊 How It Works
-1. Upload job description and resumes
-2. System extracts and weights key sections
-3. Calculates both lexical and semantic matches
-4. Combines scores for final ranking
-5. Presents visual breakdown of results
+resume-matcher/
+├── app.py                 # Main application code
+├── requirements.txt       # Dependencies
+├── screenshot/            # Application screenshots
+│   ├── home.jpeg
+│   ├── upload_jd_and_resume.jpeg
+│   ├── visual_analytics.jpeg
+│   └── excel_and_summary.jpeg
+└── resume_analysis_results.xlsx  # Sample output
+```
 
 ## 📝 Notes
-- Minimum JD length: 20 characters
-- Supported formats: PDF, DOCX
-- Max file size: 10MB per resume
+- All screenshots are stored in the `/screenshot` directory
+- Sample Excel output included for reference
+- Replace placeholder GitHub URL with your actual repository
 
-## 👤 Author
-**Gunasree R**  
-[LinkedIn](https://www.linkedin.com/in/gunasree-r-55024224a) 
-
-[GitHub](https://github.com/rgunasree)
-
+[![GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername/resume-matcher)
 ```
