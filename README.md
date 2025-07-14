@@ -61,8 +61,6 @@ resume-matcher/
 ## 📚 Documentation
 - [System Architecture](docs/ARCHITECTURE.md)
 
-=======
->>>>>>> 0bdecdf0c6315210c527ef88880915bca8ffcba1
 
-[![GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername/resume-matcher)
+[![GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rgunasree/resume-matcher)
 ```
