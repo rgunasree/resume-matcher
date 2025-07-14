@@ -1,73 +1,76 @@
 # 📄 AI-Powered Resume Matcher
 
-🚀 **A smart Streamlit application to rank resumes against job descriptions using hybrid BM25 + semantic similarity (FAISS + Sentence Transformers).**
+![App Banner](https://via.placeholder.com/1200x400?text=Resume+Matcher+Screenshot)
 
-✅ Features:
-- Upload a Job Description (JD) as plain text
-- Upload multiple resumes (PDF or DOCX)
-- Get an AI-powered % match score
-- See detailed breakdown: BM25 relevance vs Semantic similarity
-- Visual charts & Excel download for easy reporting
+A Streamlit application that automatically ranks resumes against job descriptions using hybrid BM25 + semantic similarity matching.
 
-🛠️ **Tech Stack:**
-- Python 🐍
-- Streamlit for UI
-- Rank-BM25 for lexical scoring
-- LangChain + FAISS + HuggingFace embeddings for semantic matching
-- Matplotlib & Pandas for analysis
-- PyPDF2 & python-docx for parsing resumes
+## ✨ Features
+- **Hybrid Scoring** - Combines BM25 (keyword) and FAISS (semantic) matching
+- **Multi-Format Support** - Works with PDF and DOCX resumes
+- **Visual Analytics** - Interactive charts and score breakdowns
+- **Excel Export** - Download full results for reporting
+- **Fast Processing** - Optimized pipeline for quick analysis
 
----
+## 🚀 Quick Start
 
-## 🚀 How to run
-
+1. Clone the repo:
 ```bash
-# Clone this repo
 git clone https://github.com/rgunasree/resume-matcher.git
 cd resume-matcher
+```
 
-# Setup virtual environment
+2. Set up environment:
+```bash
 python -m venv venv
-venv\Scripts\activate  # Windows
-# or
-source venv/bin/activate  # Mac/Linux
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
+```
 
-# Install dependencies
+3. Install dependencies:
+```bash
 pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+```
 
-# Run the app
+4. Run the app:
+```bash
 streamlit run app.py
+```
 
----
+## 🖥️ UI Screenshots
 
-##Screenshot of OUTPUT
+ ![Upload](![Uploading Screenshot_15-7-2025_14417_localhost.jpeg…]()
+) 
+ ![Results](https://via.placeholder.com/600x400?text=Results+View) 
+ ![Analysis](https://via.placeholder.com/600x400?text=Score+Breakdown) 
+ ![Export](https://via.placeholder.com/600x400?text=Excel+Export) 
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/350b9f2b-1b90-474a-bea6-51599eca6784" />
+## 🛠️ Tech Stack
+- **Frontend**: Streamlit
+- **NLP**: spaCy, NLTK
+- **Matching**: BM25 + FAISS
+- **Embeddings**: Sentence Transformers
+- **Parsing**: PyPDF2, python-docx
+- **Analysis**: Pandas, Matplotlib
 
-#After you apload all the resumes 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a7c14d27-d503-4bd5-8ed4-dc66706a2828" />
+## 📊 How It Works
+1. Upload job description and resumes
+2. System extracts and weights key sections
+3. Calculates both lexical and semantic matches
+4. Combines scores for final ranking
+5. Presents visual breakdown of results
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f128ec9a-d384-423e-80e1-1d893e378bdd" />
-
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ff43da71-98f0-467a-bcf4-fc1f99c6efbd" />
-
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e8f7ea98-8400-493c-bee4-be6a022be61a" />
-
----
-## 🏆 Why this project?
-- Helps hiring managers and data teams:
-
-- Automate resume screening
-
-- Visualize how close a candidate is to the JD
-
-- Shortlist top matches with data-backed confidence
-
-- Built as a portfolio project to showcase NLP, RAG & visualization skills.
+## 📝 Notes
+- Minimum JD length: 20 characters
+- Supported formats: PDF, DOCX
+- Max file size: 10MB per resume
 
 ## 👤 Author
-🔗 [LinkedIn](https://www.linkedin.com/in/gunasree-r-55024224a)
+**Gunasree R**  
+[LinkedIn](https://www.linkedin.com/in/gunasree-r-55024224a) 
 
-💻 [GitHub](https://github.com/rgunasree)
+[GitHub](https://github.com/rgunasree)
 
-##⭐ Give it a star if you like it!
+```
