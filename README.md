@@ -31,3 +31,18 @@ pip install -r requirements.txt
 
 # Start the app
 streamlit run app.py
+
+#📝 Sample data
+You can prepare:
+
+sample_jd.pdf : The job description
+
+sample_resume1.pdf : Example candidate
+
+sample_resume2.pdf : Another candidate
+
+#Author
+Made by GUNASREE R 🚀
+
+## 🚀 Live Demo
+[Click here to try it!] https://resume-matcher-kcasoqieg8geqtaezodnfw.streamlit.app/
