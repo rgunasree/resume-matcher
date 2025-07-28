@@ -1,12 +1,27 @@
 # 📄 AI-Powered Resume Matcher
-An intelligent Streamlit application that ranks resumes against job descriptions using hybrid BM25 + semantic similarity matching.
+
+🚀 A powerful NLP tool that matches resumes against a job description using a hybrid BM25 + semantic similarity engine.
+
 
 ## ✨ Features
-- **Hybrid Matching** - Combines keyword and semantic analysis
-- **Multi-Format Support** - Processes PDF/DOCX resumes
-- **Visual Analytics** - Interactive charts and comparisons
-- **Excel Export** - Download full analysis reports
 
+✅ Upload a **job description (JD)**.  
+✅ Upload **multiple resumes (PDF or DOCX)**.  
+✅ Automatically ranks resumes with a **% match score**.  
+✅ Visual analytics with a color-coded bar chart.  
+✅ Download detailed results as an Excel sheet.  
+✅ See extracted **skills, experience**, and other metadata.  
+✅ Supports hybrid scoring with **BM25 + FAISS semantic search** for best accuracy.
+  
+## ⚙️ Tech Stack
+
+- **Python** 🐍 (Streamlit for UI)
+- **BM25 (Rank-BM25)** for lexical similarity
+- **FAISS + Sentence Transformers** for semantic similarity
+- **Spacy, NLTK** for NLP processing
+- **Matplotlib & Pandas** for plots & data
+- **PyPDF2, python-docx** for text extraction
+- 
 ## 🖼️ Application Screenshots
 
 ### 1. Home Screen
@@ -58,11 +73,17 @@ resume-matcher/
 - Replace placeholder GitHub URL with your actual repository
 <<<<<<< HEAD
 
+## 🔧 Troubleshooting
+1. Ensure screenshots are stored exactly as: screenshot/FILENAME.jpeg
+2. If images don't load on GitHub:
+   Verify filenames match (case-sensitive).
+   Ensure extensions are .jpeg (not .jpg).
+3. If faiss or torch gives CUDA errors:
+   Use CPU device (already configured with device='cpu' in your code).
+   
 ## 📚 Documentation
 - [System Architecture](docs/ARCHITECTURE.md)
 
-=======
->>>>>>> 0bdecdf0c6315210c527ef88880915bca8ffcba1
 
-[![GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername/resume-matcher)
+[![GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rgunasree/resume-matcher)
 ```
