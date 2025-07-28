@@ -11,7 +11,7 @@ import docx
 from rank_bm25 import BM25Okapi
 import traceback
 import logging
-
+import nltk
 from langchain_community.embeddings import SentenceTransformerEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain.docstore.document import Document
