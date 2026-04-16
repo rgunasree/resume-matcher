@@ -21,7 +21,7 @@
 - **Spacy, NLTK** for NLP processing
 - **Matplotlib & Pandas** for plots & data
 - **PyPDF2, python-docx** for text extraction
-- 
+  
 ## 🖼️ Application Screenshots
 
 ### 1. Home Screen
